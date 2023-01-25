@@ -52,31 +52,39 @@ nav
     position: relative;
 }
 
-.aboutme
+.home
 {
-    margin: 20px;
+    margin: 50px;
 }
 
 .introduce-title
 {
-    margin: 0 0 30 0;
     font-size: 100px;
     color: #7B744F;
 }
 
+.introduce
+{
+    display: flex;
+    align-items : center;
+}
+
 .introduce p
 {
+    margin-left: 100px;
     font-size: 20px;
     color: #7B744F;
+    float: left;
 }
 
 .profile
 {
+    margin-left: 200px;
     width: 200px;
-    height: 200px;
+    height: 267px;
+    float: right;
     border-radius: 30%; /*둥글게 깎는 정도*/
     overflow: hidden; /*깎고 넘치는 부분을 hidden으로 안 보이게*/
-    float: right;
 }
 
 .profile-img
@@ -84,6 +92,47 @@ nav
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.aboutme
+{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutme p
+{
+    font-size: 20px;
+    color: #7B744F;
+}
+
+.aboutme img
+{
+    margin: 0px, 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.skill
+{
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.skill p
+{
+    font-size: 50px;
+    color: #7B744F;
+}
+
+.skill img
+{
+    width: 400px;
+    height: 152px;
 }
 
 .burger
